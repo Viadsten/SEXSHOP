@@ -4170,8 +4170,8 @@ button,
   position: fixed;
   z-index: 1;
   left: calc(50% - 31.4vw);
-  top: 2vh;
-  top: calc(2 * var(--vh, 1vh));
+  top: -1vh;
+  top: calc(-1 * var(--vh, 1vh));
   width: 62.7vw;
   height: 92.8vh;
   height: calc(92.8 * var(--vh, 1vh));
@@ -5474,8 +5474,9 @@ button,
   .scroll-content--taste .scroll-content__boutle {
     position: absolute;
     left: calc(50% - 47.3vw);
-    top: 10.5vh;
-    top: calc(10.5*var(--vh, 1vh));
+    top: 7.5vh;
+    top: calc(7.5*var(--vh, 1vh));
+    height: calc(72.8 * var(--vh, 1vh));
     width: 91.7vw;
   }
 
